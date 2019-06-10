@@ -1,0 +1,13 @@
+#home {
+    .container {
+        .title {
+            h1 {
+                color: $secondary-color; 
+            }
+        }
+    }
+
+    section {
+        height: 300px;
+    }
+}

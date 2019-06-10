@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*Colores*/
+/*Tipografías*/
+/*Layout*/
+header {
+  margin: 0 auto;
+}
+
+/*Pages*/
+#home .container .title h1 {
+  color: green;
+}
+#home section {
+  height: 300px;
+}
+
+/*# sourceMappingURL=main.css.map */

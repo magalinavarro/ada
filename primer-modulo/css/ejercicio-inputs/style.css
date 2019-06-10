@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Black.ttf);
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    height: 30px;
+    width: 200px;
+    padding: 20px;
+    border-color: black;
+    background-color: #CCC;
+    color: black;
+}
+
+button {
+    color: rebeccapurple;
+    border-color: black;
+    padding: 5px;
+}
+
+body {
+    background-color: lightcoral;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+form input:required {
+    border:2px solid yellow;
+ /* otras propiedades */
+ }
+
+ /*Si el valor que el usuario escribe es valido, obtendra un color verde*/
+ form input:valid{
+     border:2px solid green;
+     /* otras propiedades */
+ }
+
+ /*caso contrario, el color sera rojo*/
+ form input:focus:invalid{
+     border:2px solid red;
+     /* otras propiedades */
+ }
+
+

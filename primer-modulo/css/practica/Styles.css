@@ -1,0 +1,38 @@
+main, aside, .column {
+    display: inline-block;
+}
+
+aside {
+    vertical-align: top;
+}
+
+.column {
+    margin-left: -4px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box-large {
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+}
+
+.color-1 {
+    background-color: aquamarine;
+}
+
+.color-2 {
+    background-color: indigo;
+}
+
+.color-3 {
+    background-color: indianred;
+}
+
+.color-4 {
+    background-color: grey;
+}
