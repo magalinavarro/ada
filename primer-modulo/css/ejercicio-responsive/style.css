@@ -1,0 +1,315 @@
+@media screen and (max-width: 900px) {    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+body {
+    background-color: #f5f5F5;
+    max-width: 90%;
+    min-width: 10%;
+    background-image: url("img/background.jpg");
+}
+
+.clear {
+    clear: both;
+}
+
+.column {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 40px 0;
+}
+
+.card-header {
+    background-color: #2ECC71;
+    padding: 20px;
+}
+
+.card-body {
+    background-color: #FFF;
+    padding: 40px 20px;
+}
+
+.content-container {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFF;
+    margin: 30px 0 10px;
+}
+
+.subtitle {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text {
+    font-family: 'Roboto';
+}
+
+
+/* 
+===========================================
+            ABOUT SECTION
+=========================================== 
+*/
+
+.avatar {
+    width: 200px;
+    position: relative;
+}
+
+.picture-container {
+    float: left;
+}
+
+.name-container {
+    float: right;
+    width: 600px;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFF;
+    margin: 30px 0 10px;
+}
+
+.job {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.about-me {
+    width: 400px;
+    float: left;
+}
+
+.description {
+    font-family: 'Roboto';
+    line-height: 25px;
+}
+
+.info {
+    width: 350px;
+    float: left;
+    margin-left: 50px;
+}
+
+.info-list {
+    list-style: none;
+    line-height: 25px;
+}
+
+.info-property {
+    display: inline-block;
+    width: 100px;
+    font-family: 'Roboto';
+    color: #424242;
+}
+.info-value {
+    display: inline-block;
+    width: 180px;
+    font-family: 'Roboto';
+    color: #9E9E9E;
+}
+
+
+/* 
+===========================================
+            RESUME SECTION
+=========================================== 
+*/
+
+.timeline-container {
+    float: left;
+    width: 380px;
+    padding: 0 10px;
+}
+
+.timeline-item {
+    padding: 15px 20px 10px;
+    margin-bottom: 20px;
+    border-left: 2px solid #2ECC71;
+}
+
+.timeline-title {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.timeline-period {
+    font-family: 'Helvetica';
+    font-size: 12px;
+    line-height: 18px;
+    color: #2ECC71;
+    margin: 0 0 20px;
+}
+
+.timeline-description {
+    font-family: 'Helvetica';
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+/* 
+===========================================
+            SERVICES SECTION
+=========================================== 
+*/
+
+.service-section-container {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.service-block {
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.service-img-container {
+    width: 120px;
+    height: 120px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+}
+
+.service-img {
+    height: 64px;
+    margin: 28px 0;
+}
+
+.service-title {
+    font-family: 'Helvetica';
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+
+.service-description {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.services-client {
+    width: 80px;
+    float: left;
+    margin-left: calc(800px/12 - 40px);
+    margin-right: calc(800px/12 - 40px); 
+}
+
+.pricing-box {
+    border: 1px solid #E0E0E0;
+    width: calc(800px / 3 - 20px);
+    margin: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pricing-button {
+    display: inline-block;
+    font-family: 'Helvetica';
+    background-color: #2ECC71;
+    color: #FFF;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.pricing-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* 
+===========================================
+            PORTFOLIO SECTION
+=========================================== 
+*/
+
+.portfolio-img {
+    width: calc(800px / 3 - 10px);
+    margin: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+/* 
+===========================================
+            BLOG SECTION
+=========================================== 
+*/
+
+.blog-post {
+    width: 360px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.blog-post-img {
+    width: 360px;
+}
+
+.blog-post-title {
+    font-family: 'Helvetica';
+    letter-spacing: 1px;
+}
+
+
+
+/* 
+===========================================
+            CONTACT SECTION
+=========================================== 
+*/
+
+.contact {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
