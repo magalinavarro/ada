@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verduleria</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="mensaje">Seleccione una verdura</h1>
+    <h2 onclick="agregarVerdura(precioTotal)" >Total $ <span id="total">0</span></h2>
+    <div class="veggies">
+    <img onclick="agregarVerdura('remolacha', )" src="imgs/beet.png" alt="">
+        <img  onclick="agregarVerdura('espinaca', 20)" src="imgs/spinach.png" alt="">
+        <img  onclick="agregarVerdura('choclo', 15)" src="imgs/corn.png" alt="">
+        <img  onclick="agregarVerdura('lechuga', 18)" src="imgs/lettuce.png" alt="">
+        <img  onclick="agregarVerdura('cebolla', 15)" src="imgs/onion.png" alt="">
+        <img  onclick="agregarVerdura('pimiento', 20)" src="imgs/pepper.png" alt="">
+        <img  onclick="agregarVerdura('papa', 10)" src="imgs/potato.png" alt="">
+        <img  onclick="agregarVerdura('calabaza', 15)" src="imgs/pumpkin.png" alt="">
+        <img  onclick="agregarVerdura('tomate', 20)" src="imgs/tomato.png" alt="">
+    </div>
+    <div onclick="reiniciar()" class="button">↩️</div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pin</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="pin"></h1>
+        <div class="buttons">
+            <div onclick="insertarDigito(7)" class="button">7</div>
+            <div onclick="insertarDigito(8)" class="button">8</div>
+            <div onclick="insertarDigito(9)" class="button">9</div>
+        </div>
+        <div class="buttons">
+            <div onclick="insertarDigito(4)" class="button">4</div>
+            <div onclick="insertarDigito(5)" class="button">5</div>
+            <div onclick="insertarDigito(6)" class="button">6</div>
+        </div>
+        <div class="buttons">
+            <div onclick="insertarDigito(1)" class="button">1</div>
+            <div onclick="insertarDigito(2)" class="button">2</div>
+            <div onclick="insertarDigito(3)" class="button">3</div>
+        </div>
+        <div class="buttons">
+            <div onclick="insertarDigito(0)" class="button">0</div>
+            <div onclick="borrarDigito()" class="button">↩️</div>
+            <div onclick="chequearPin()" class="button">✔️</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
